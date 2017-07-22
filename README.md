@@ -23,7 +23,7 @@ $ bower install angular
 $ bower install bootstrap
 ```
 
-After creating ```server.js``` for **express** webserver we need to boot the server with [https://nodemon.io/](**nodemon** )
+After creating ```server.js``` for **express** webserver we need to boot the server with **nodemon**
 ```bash
 $ npm install -g nodemon
 ```
