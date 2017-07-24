@@ -33,3 +33,8 @@ $ npm install -g nodemon
 $ node server.js
 ```
 will do the same but if you change the ```server.js``` file, you need to run the above command again.
+
+Then we need to install the ```angular-route```
+```bash
+$ bower install angular-route
+```
