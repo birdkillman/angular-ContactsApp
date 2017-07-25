@@ -53,6 +53,13 @@ $ npm install body-parser
 $ bower install angular-resource
 ```
 
+## Run
+1. By default all bower components are in  ```./bower_components```. Move them all into ```/public/lib/``` (As you see the source in the ```/public/main.html```)
 
+2. boot the server with ```nodemon```
+```bash
+$ nodemon server.js
+```
 
+3. In browser go to ```http://localhost:3000```
 
