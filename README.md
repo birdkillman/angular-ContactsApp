@@ -13,7 +13,7 @@ $ npm install -g bower
 ```
 
 ## Dependencies
-We will install all dependencies with ```npm``` and ```bower```
+* ```Express```,```Angular``` and ```Bootstrap```
 
 ```bash
 $ npm install express
@@ -23,18 +23,36 @@ $ bower install angular
 $ bower install bootstrap
 ```
 
-After creating ```server.js``` for **express** webserver we need to boot the server with **nodemon**
+* After creating ```server.js``` for **express** webserver, we need to boot the server with **nodemon**
 ```bash
 $ npm install -g nodemon
 ```
-
 **nodemon** will detect all the changes in ``server.js`` and restart the server however
 ```bash
 $ node server.js
 ```
 will do the same but if you change the ```server.js``` file, you need to run the above command again.
 
-Then we need to install the ```angular-route```
+* Then we need to install the ```angular-route```
 ```bash
 $ bower install angular-route
 ```
+
+* JSON Database 
+```bash
+$ npm install bourne
+```
+
+* Middleware for parsing the http request
+```bash
+$ npm install body-parser
+```
+
+* Attach the backend to frontend by ```Angular Resource```
+```bash
+$ bower install angular-resource
+```
+
+
+
+
