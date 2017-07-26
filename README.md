@@ -53,6 +53,11 @@ $ npm install body-parser
 $ bower install angular-resource
 ```
 
+* Angular messages
+```bash
+$ bower install angular-messages
+```
+
 ## Run
 1. By default all bower components are in  ```./bower_components```. Move them all into ```/public/lib/``` (As you see the source in the ```/public/main.html```)
 
